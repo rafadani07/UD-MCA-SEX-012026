@@ -1,0 +1,29 @@
+ALGORITMO Parte2_Objeto
+
+VAR
+nome : caractere
+cor : caractere
+preco : real
+estoque : inteiro
+
+INICIO
+
+nome <- "Maçã"
+cor <- "Vermelha"
+preco <- 3.50
+estoque <- 100
+
+ESCREVA "Nome da fruta:", nome
+ESCREVA "Preço:", preco
+
+estoque <- 80
+
+ESCREVA "Estoque atualizado:", estoque
+
+ESCREVA "Dados da fruta:"
+ESCREVA nome
+ESCREVA cor
+ESCREVA preco
+ESCREVA estoque
+
+FIM
