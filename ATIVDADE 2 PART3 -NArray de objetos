@@ -1,0 +1,83 @@
+ALGORITMO Parte3_ArrayObjetos
+
+VAR
+nome : vetor[10] de caractere
+preco : vetor[10] de real
+estoque : vetor[10] de inteiro
+i : inteiro
+total : inteiro
+maior : inteiro
+indice : inteiro
+
+INICIO
+
+nome[0] <- "Maçã"
+preco[0] <- 3.50
+estoque[0] <- 100
+
+nome[1] <- "Banana"
+preco[1] <- 2.00
+estoque[1] <- 80
+
+nome[2] <- "Uva"
+preco[2] <- 4.00
+estoque[2] <- 60
+
+nome[3] <- "Pera"
+preco[3] <- 3.00
+estoque[3] <- 90
+
+nome[4] <- "Manga"
+preco[4] <- 5.00
+estoque[4] <- 70
+
+nome[5] <- "Abacaxi"
+preco[5] <- 6.00
+estoque[5] <- 40
+
+nome[6] <- "Morango"
+preco[6] <- 7.00
+estoque[6] <- 50
+
+nome[7] <- "Melancia"
+preco[7] <- 8.00
+estoque[7] <- 30
+
+nome[8] <- "Laranja"
+preco[8] <- 2.50
+estoque[8] <- 120
+
+nome[9] <- "Limão"
+preco[9] <- 1.50
+estoque[9] <- 150
+
+ESCREVA "Preço do segundo objeto:", preco[1]
+ESCREVA "Nome do terceiro objeto:", nome[2]
+
+ESCREVA "Total de itens: 10"
+
+PARA i <- 0 ATE 9 FACA
+ESCREVA nome[i]
+FIMPARA
+
+total <- 0
+
+PARA i <- 0 ATE 9 FACA
+total <- total + estoque[i]
+FIMPARA
+
+ESCREVA "Total de estoque:", total
+
+maior <- estoque[0]
+indice <- 0
+
+PARA i <- 1 ATE 9 FACA
+SE estoque[i] > maior ENTAO
+maior <- estoque[i]
+indice <- i
+FIMSE
+FIMPARA
+
+ESCREVA "Produto com maior estoque:", nome[indice]
+
+FIM
