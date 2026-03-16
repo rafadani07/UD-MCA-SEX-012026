@@ -1,0 +1,45 @@
+ALGORITMO Parte1_Array
+
+VAR
+frutas : vetor[20] de caractere
+i : inteiro
+
+INICIO
+
+frutas[0] <- "Maçã"
+frutas[1] <- "Banana"
+frutas[2] <- "Uva"
+frutas[3] <- "Pera"
+frutas[4] <- "Manga"
+frutas[5] <- "Abacaxi"
+frutas[6] <- "Morango"
+frutas[7] <- "Melancia"
+frutas[8] <- "Laranja"
+frutas[9] <- "Limão"
+frutas[10] <- "Kiwi"
+frutas[11] <- "Coco"
+frutas[12] <- "Acerola"
+frutas[13] <- "Goiaba"
+frutas[14] <- "Mamão"
+frutas[15] <- "Pitaya"
+frutas[16] <- "Caju"
+frutas[17] <- "Cupuaçu"
+frutas[18] <- "Graviola"
+frutas[19] <- "Jabuticaba"
+
+ESCREVA "Posição 0:", frutas[0]
+ESCREVA "Posição 7:", frutas[7]
+ESCREVA "Posição 11:", frutas[11]
+ESCREVA "Posição 15:", frutas[15]
+ESCREVA "Posição 18:", frutas[18]
+
+ESCREVA "Penúltima:", frutas[18]
+ESCREVA "Última:", frutas[19]
+
+ESCREVA "Total de elementos: 20"
+
+PARA i <- 0 ATE 19 FACA
+ESCREVA frutas[i]
+FIMPARA
+
+FIM
