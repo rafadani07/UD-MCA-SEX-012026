@@ -1,8 +1,0 @@
----
-Nome: Rafael Daniel de Paulo Fernandes
-RA: 825227892
-Curso: Engenharia de Software
-Semestre: 2
-Bairro: São Paulo
-Se trabalha: Estagiário
-Objetivo: Atuar com Engenharia de Software e Cybersecurity
